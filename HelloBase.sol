@@ -2,7 +2,7 @@
 pragma solidity ^0.8.20;
 
 contract HelloBase {
-    string public message = "Welcome to Base Builders!";
+  string public message = "Welcome to Base Builders!";
 
     function setMessage(string memory newMessage) public {
         message = newMessage;
